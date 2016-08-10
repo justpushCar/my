@@ -44,8 +44,10 @@ position: absolute;font-weight: bold;}
 .x .section3 .bot .some .name_l{position: absolute;top:1.51rem;font-size:0.495rem ;font-weight: bold;color:#333 ;}
 .x .section3 .bot .some .name_r{position: absolute;top:1.51rem;font-size:0.495rem ;font-weight: bold;color:#333;left:11.0rem;}
 .x .section3 .bot .some .box1{position: absolute;width:2.62rem;left: 3.26rem;height:2.17rem;bottom:1.61rem;;}
+.x .section3 .bot .some .box1 .reld{position: relative;}
 .x .section3 .bot .some .box1 .bot{position: absolute;width:2.62rem;height:1.17rem;bottom:0rem;background:#e64f4f;margin: 0;}
-.x .section3 .bot .some .box1 .top{height:0.89rem;width: 100%;line-height:0.89rem;text-align: center;color:#333 ;font-size: 0.34rem;}
+.x .section3 .bot .some .box1 .top{position: absolute; height:0.89rem;width: 100%;top:-0.7rem;
+line-height:0.89rem;text-align: center;color:#333 ;font-size: 0.34rem;}
 /*.x .section3 .bot .some .box1 .bot{height: 1.32rem;width: 100%;background:#e64f4f;margin: 0;}*/
 .x .section3 .bot .some .box2{position: absolute;width:2.62rem;left: 7.7rem;top:2.2rem;height: 1.6rem;}
 .x .section3 .bot .some .box2 .top{width: 100%;margin: 0;height:0.74rem;background:#589dcd;}

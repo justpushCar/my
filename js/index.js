@@ -3,7 +3,7 @@
 
 function tab(color){
 			var tx=document.querySelectorAll('.tx')	
-			var img=document.querySelectorAll('.b_img')	
+			var img=document.querySelectorAll('.both')	
 			for (var a=0 ;a<tx.length; a++){
 				tx[a].addEventListener('click',function(){
 					var parnet=this.parentNode.children

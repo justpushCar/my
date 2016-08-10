@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1.0" />
+<title>股票诊断结果页</title>
+<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<script src="js/comm.js"></script>
+</head>
+<body class="body3">
+<header class="rr-head">
+	<div class="rr-k1">
+		<h3>海洋王</h3>
+		<p>002724</p>
+	</div>
+	<div class="rr-k2">
+		<p class="uparrow"><img src="img/uparrow1.png">18.69</p>
+		<p class="mt5"><span>+5.71</span><span class="ml65">7.99%</span></p>
+	</div>
+</header>
+<div class="rr-content">
+	<div class="question" id="qusetion"><img src="img/alpha_question.png"></div>
+	<div class="lieda"><img src="img/return-leida.png"></div>
+	<div class="data-circle cfx">
+		<dl><dt><img src="img/return-fpoint.png"></dt><dd>F点密集度</dd><dd>查看详情</dd></dl>
+		<dl><dt><img src="img/return-xueqiu.png"></dt><dd>雪球价值</dd><dd>查看详情</dd></dl>
+		<dl><dt><img src="img/return-zhuli.png"></dt><dd>主力深度</dd><dd>查看详情</dd></dl>
+		<dl><dt><img src="img/return-zijin.png"></dt><dd>资金流向</dd><dd>查看详情</dd></dl>
+	</div>
+	<div class="mark-box dn">
+		<pre></pre>
+		<p>主力深度：主力介入深度，数值越大波动也越大。<br/>
+		雪球价值：个股内在价值，数值越大的个股绝对收益越高回撤越小。<br/>
+		市场关注度：市场关注度，数值越大将来可能吸引到的资金就越多。<br/>
+		资金热度：资金流入情况，数值越大说明该股越受关注。<br/>
+		F点密集度：买点密集度，数值越大说明该股股性越活上攻意愿越强。<br/>
+		</p>
+	</div>
+</div>
+<div class="rr-mask1" id="mask1">
+	<div class="qus-mark">
+		<img src="img/question.png" border="0" >
+	</div>
+</div>
+</body>
+<script src="js/zeptoJs.js"></script>
+<script type="text/javascript">
+$(function(){
+	var mark=0;//设置一个标志，0表示隐藏状态状态
+	var box=$(".mark-box");
+	$("#qusetion").click(function(){
+		if(mark==0){
+			box.hide();
+			mark=1;
+		}else if(mark==1){
+			box.show();
+			mark=0;
+		}	
+	});
+	$("#mask1").click(function(){
+		$("#mask1").hide();
+	})
+});
+</script>
+</html>

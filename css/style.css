@@ -114,3 +114,7 @@ word-break: break-all;overflow: hidden;}
 .rf-x{width:14.7rem;padding:.65rem .65rem 0 .65rem;border-bottom: 1px solid #CCCCCC;line-height: 1.15rem;}
 .rf-x .rf-title{font-size:.65rem;}
 .rf-x .rf-time{font-size:.5rem;color: #666;}
+/*资金流向结果页*/
+.tablebox{margin-bottom: 1rem;}
+.tablebox table{width: 12rem;margin:.65rem 2rem;font-size:.65rem;color:#333;background: #ffc445;border:  1px solid #FFFFFF;}
+.tablebox table td{width:3rem;padding: 0 .5rem;}

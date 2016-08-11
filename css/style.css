@@ -81,9 +81,9 @@
 .y-head .rr-k2 p span{font-size: .56rem;margin-top: .4rem;color:#e62e2e;}
 .y-head .rr-k2 .x_img{width: 0.42rem;height: 0.76rem;position: absolute;top:1rem;left: 6.5rem;}
 .y-head .rr-k2 .x_img img{width: 100%;height: 100%;}
-.yx_foot{height:5.22rem;width:100%;}
-.yx_foot .b_img{margin: 0.72rem;width: 0.72rem;height:0.65rem;display: block;float: left;}
-.yx_foot .tex{margin: 0.72rem;height:5.5rem;display: block;float: left;font-size: 0.65rem;margin-left: 0;width: 13rem;
+.yx_foot{width:14.7rem;padding:.4rem .65rem;}
+.yx_foot .b_img{width: 0.72rem;height:0.65rem;display: block;float: left;}
+.yx_foot .tex{height:5.5rem;display: block;float: left;font-size: 0.65rem;margin-left:.4rem;width: 13rem;
 word-break: break-all;overflow: hidden;}
 
 

@@ -62,13 +62,20 @@
 <script type="text/javascript">
 $(function(){
 	var box=$(".mark-box");
-	$("#qusetion").click(function(){
-		box.toggle()
+	$("#qusetion").click(function(e){
+		box.show();
+		e.stopPropagation(); 
+	})
+	$("body").click(function(){
+		box.hide();
 	})
 	$("#mask1").click(function(){
 		$("#mask1").hide();
 	})
-	
+		$("#mask1").on("touchmove",function(){
+		return false
+	})
+		
 });
 </script>
 </html>

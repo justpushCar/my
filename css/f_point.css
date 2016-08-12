@@ -4,7 +4,9 @@
 .yu img{width: 100%;height:100%;}
 .yu .hd{width: 100%;height:6.19rem;}
 .yu .hd_l{position: absolute;width: 8rem;height: 3.89rem;left: 1.86rem;top: 0.68rem;}
-.yu .hd_r{position: absolute;width: 4.57rem;height: 4.7rem;left: 10.68rem;top: 0.68rem;}
+.yu .hd_r{position: absolute;width:6.32rem;height: 4.4rem;right:1.2rem;top: 0.68rem;}
+.yu .hd_r1{position: absolute;width:5.19rem;height: 4.02rem;right:1.2rem;top: 0.68rem;}
+.yu .hd_r2{position: absolute;width:4.57rem;height: 4.78rem;right:1.2rem;top: 0.68rem;}
 .yu .btn{width: 95%;margin:0 2.5%;height:2rem;border-radius:0.4rem;margin-bottom: 0.44rem;font-size:0.7rem;text-indent:0.7rem;}
 .yu .sbmit{background: #ee3232;text-align: center;font-size:0.81rem;line-height: 2rem;color:white;font-weight: bold;}
 .yu .section2{height:12.47rem;width: 100%;position: relative;}

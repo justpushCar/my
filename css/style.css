@@ -51,7 +51,7 @@
 .y_bottom  span{font-weight: bold;font-size:0.512rem;}
 .y_bottom .mid{height:2.13rem; width:33.3%;float:left;padding-top:0.53rem;}
 .y_bottom .right{height:2.13rem;width:33.3%;float: left;padding-top: 0.53rem;text-align: center;}
-.bot_text{height:8rem;width:15.5rem;background:white;margin-top: 0.42rem;padding-left:0.50rem;font-size: 0.55rem;
+.bot_text{width:15.5rem;background:white;margin-top: 0.42rem;padding-left:0.50rem;font-size: 0.55rem;
 }
 .bot_text .title{height: 1.92rem;border-bottom:solid 1px #ebebeb;font-size: 0.6.2rem;line-height:1.92rem;}
 .bot_text .content{padding-top:0.5rem;}

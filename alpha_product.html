@@ -66,8 +66,14 @@ $(function(){
 		box.show();
 		e.stopPropagation(); 
 	})
-	$("body").click(function(){
-		box.hide();
+	
+	$('body > *').click(function(e){
+		var e=$(e.target)
+		var fe=e.closest(".mark-box")
+		if(fe.length==0){
+			box.hide();
+		}
+		
 	})
 	$("#mask1").click(function(){
 		$("#mask1").hide();

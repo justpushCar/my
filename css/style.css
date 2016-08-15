@@ -21,9 +21,10 @@
 .rf-head .rf-k1 p{font-size: .56rem;margin-top: .3rem;}
 
 .rf-head .rf-k2{width: 8rem;height:3.1rem;-webkit-box-flex: 6;-moz-box-flex: 6;text-align: center;}
+.rf-k2 p{color:#e62222;}
 .rf-head .rf-k2 .uparrow{font-size: .75rem;color:#e62222;margin-top: .5rem;}
 .rf-head .rf-k2 .uparrow img{height:.65rem;width:.43rem;margin-right: .2rem;}
-.rf-head .rf-k2 p span{font-size: .56rem;color: #084692;margin-top: .4rem;}
+.rf-head .rf-k2 p span{font-size: .56rem;margin-top: .4rem;}
 
 .rf-content{width:14.7rem;background-color: #fff;padding: .65rem;margin-top: .36rem;}
 .rf-content .rf-tt{width: 100%;border-bottom: 1px solid #CCCCCC;line-height: 1.15rem;}
@@ -54,7 +55,7 @@
 }
 .bot_text .title{height: 1.92rem;border-bottom:solid 1px #ebebeb;font-size: 0.6.2rem;line-height:1.92rem;}
 .bot_text .content{padding-top:0.5rem;}
-.bot_text .content span{color: #3560dc;}
+.bot_text .content span{color:#4A6EDC;}
 /*//产品*/
 .s_foot{position: relative;background-color:#fff;margin-top: 0.42rem;width: 14.7rem;padding:.65rem;padding-top:0 ;}
 .s_foot .bottom_text{height:4rem;width:15rem;font-size: 0.55rem;}

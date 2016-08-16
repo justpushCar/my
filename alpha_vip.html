@@ -83,12 +83,26 @@
 <script type="text/javascript">
 $(function(){
 	var box=$(".mark-box");
-	$("#qusetion").click(function(e){
-		box.show();
+    var flag=true
+	$("#qusetion").tap(function(e){
+		if(flag){
+			box.show();
 		e.stopPropagation(); 
+		flag=false
+		}else{
+				box.hide();
+		e.stopPropagation(); 
+			flag=true
+		}
 	})
-	$("body").click(function(){
-		box.hide();
+	
+	$(' body >*').tap(function(e){
+		var e=$(e.target)
+		var fe=e.closest(".mark-box")
+		if(fe.length==0&&flag==false){
+			box.hide();
+			flag=true
+		}
 	})
 	$("#mask1").click(function(){
 		$("#mask1").hide();

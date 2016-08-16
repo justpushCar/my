@@ -21,10 +21,10 @@
 box-shadow: 0px 0px 10px #6057ab;font-size: 0.73rem;color: #afa8ea;line-height: 1.28rem;text-align: center;
 -moz-box-shadow: 0px 10px 5px #6057ab;
 }
-.yu .section3 .text3{margin-top: 0.64rem;height: 2.12rem;width: 14.64rem;margin-left: 0.68rem;border: 1px solid #3a3864;background: #1a1a1a;
-color: #fdff49;font-size: 0.53rem;
+.yu .section3 .text3{margin-top: 0.64rem;height: 2.12rem;width: 14.64rem;margin-left: 0.68rem;background: #1a1a1a;
+color: #fdff49;font-size: 0.58rem;
 }
-.yu .section3 .text3 div{margin: 0.3rem;}
+.yu .section3 .text3 div{padding: 0.4rem;}
 
 .yu .section3 .text3 div span{color:#cb5353;}
 .yu .section3 .b_img{height: 9.63rem;margin:0 0.68rem;width:14.64rem;}

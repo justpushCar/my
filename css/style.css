@@ -15,14 +15,14 @@
 .flow-footer img{height:1.77rem;width: 100%;}
 /*利弗莫尔F点结果页*/
 .body2{background-color:#ebebeb;font-size: 0;}
-.rf-head{width:100%;height:3.1rem;background-color: #fff;padding: .2rem 0;display: -webkit-box;display: -moz-box;}
-.rf-head .rf-k1{border-right:1px solid #CCCCCC;width: 8rem;height:3.1rem;-webkit-box-flex: 6;-moz-box-flex: 6;text-align: center;}
-.rf-head .rf-k1 h3{font-size: .8rem;margin-top: .5rem;}
+.rf-head{width:100%;height:3.1rem;background-color: #fff;padding-top:0.7rem;display: -webkit-box;display: -moz-box;}
+.rf-head .rf-k1{border-right:1px solid #CCCCCC;width: 8rem;height:2.8rem;-webkit-box-flex: 6;-moz-box-flex: 6;text-align: center;}
+.rf-head .rf-k1 h3{font-size: .8rem;}
 .rf-head .rf-k1 p{font-size: .56rem;margin-top: .3rem;}
 
 .rf-head .rf-k2{width: 8rem;height:3.1rem;-webkit-box-flex: 6;-moz-box-flex: 6;text-align: center;}
 .rf-k2 p{color:#e62222;}
-.rf-head .rf-k2 .uparrow{font-size: .75rem;color:#e62222;margin-top: .5rem;}
+.rf-head .rf-k2 .uparrow{font-size: .75rem;color:#e62222;}
 .rf-head .rf-k2 .uparrow img{height:.65rem;width:.43rem;margin-right: .2rem;}
 .rf-head .rf-k2 p span{font-size: .56rem;margin-top: .4rem;}
 

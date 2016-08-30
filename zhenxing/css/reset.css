@@ -74,7 +74,7 @@ a:hover{color:#e62223;text-decoration:underline}
 .clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after { clear: both; }
 .psr{position: relative;}
-
+.clearBoth{clear: both;overflow: hidden;height: 0;}
 /* IE 6/7 */
 .clearfix { zoom: 1; }
 .cb {clear: both;}

@@ -87,7 +87,7 @@ a:hover{color:#e62223;text-decoration:underline}
 .head .hdcon h1{float:left;overflow:hidden;}
 .head .hdcon h1 span{display:block;float:left;}
 /*.head .hdcon h1 .lg{border-right:1px #e0e0e0 solid;}*/
-.head .hdcon .tel{float:right;margin:24px 5px 0 0;background:url(../images/tel.png) no-repeat left center;padding:0 0 0 50px;font-size:28px;color:#9a9a9a;}
+.head .hdcon .tel{float:right;margin:24px 5px 0 0;background:url(../img/tel.png) no-repeat left center;padding:0 0 0 50px;font-size:28px;color:#9a9a9a;}
 /*pub*/
 .mCon,.mainWrap{width:960px;margin:0 auto;}
 /*menu*/
@@ -112,7 +112,7 @@ a:hover{color:#e62223;text-decoration:underline}
 .sdLft .answer h3 {font-size: 14px; font-weight: normal; text-indent: 18px; height: 27px; margin-top: 10px; color: #465580; *padding-top: 10px;}
 .sdLft .answer textarea {  outline:medium; width: 470px; height: 58px;margin: 0 15px; border: 1px solid #bdbdbd; border-radius: 5px; overflow: auto; font-size: 14px; color: #999; line-height: 25px;}
 .sdLft .answer textarea:focus {border: 1px solid #fd0000;}
-.sdLft .answer a { width: 85px; height: 60px; background: url(../images/btn.jpg) no-repeat; border: none; color: #fff; text-align: center; line-height: 60px; font-size: 18px;}
+.sdLft .answer a { width: 85px; height: 60px; background: url(../img/btn.jpg) no-repeat; border: none; color: #fff; text-align: center; line-height: 60px; font-size: 18px;}
 .sdLft .answer a:hover {text-decoration: none;}
 .tishi {height: 30px; line-height: 30px; margin-left: 16px;}
 /*页尾*/
@@ -185,11 +185,11 @@ a:hover{color:#e62223;text-decoration:underline}
 .hover-account li a {color: #fff;  display: inline-block; height: 30px; width: 50px; margin: 0; padding: 0;}
 .hover-account li a:hover {background: #313131}
 .red {color: #e62223!important;}
-.xiala {background: url(../images/xiala.gif) no-repeat; background-position: 98% center;}
+.xiala {background: url(../img/xiala.gif) no-repeat; background-position: 98% center;}
 .scan {width: 180px; text-align: left; padding: 0;}
 .scan a {margin: 0; padding: 0 10px 0 0!important;}
 .title-close {font-size: 24px;line-height:  42px;text-indent: 20px;height: 42px;background: #f5f5f5;font-weight: bold;color: #333;}
-.closeBtn {background: url(../images/xx.jpg) no-repeat;width: 18px;height: 19px;position: absolute;top: 10px;right: 10px;cursor: pointer;}
+.closeBtn {background: url(../img/xx.jpg) no-repeat;width: 18px;height: 19px;position: absolute;top: 10px;right: 10px;cursor: pointer;}
 
 #nopayorder{  width:100px;text-align:left}
 #nopayorder a{ display:inline-block}
@@ -199,7 +199,7 @@ a:hover{color:#e62223;text-decoration:underline}
 /*登录弹窗*/
 /*  登录-注册、共用*/
 .xiyi-border #layui-layer3{height: 200px;border: 1px solid red;border-top: 5px solid red;}
-.layui-layer-ico {background: url(../images/xx.jpg) no-repeat!important;}
+.layui-layer-ico {background: url(../img/xx.jpg) no-repeat!important;}
 .box-h2-2, .box-h2-3 { height: 50px; background: #f5f5f5; font-size: 24px; line-height: 50px; text-indent: 16px;}
 .enter-2 form ul li input:focus, .enter-3 form ul li input:focus {border: 1px solid #e62222;}
 .submit-2, .submit-3  {text-align: center; margin-top: 10px;}
@@ -210,34 +210,34 @@ a:hover{color:#e62223;text-decoration:underline}
 .enter-2 ul li {text-align: center;}
 .enter-2 input[type="checkbox"]:focus {border: none;}
 .enter-2 input[type="checkbox"] {margin-top: -3px;}
-.enter-2 .text-2 { background: #fff url(../images/zhanghu.png) no-repeat 10px 10px; margin: 25px 0 0 0; *margin: 25px 0 0 -30px;width: 320px; height: 40px; font-size: 14px; text-indent: 30px; color: #333; outline:medium; line-height: 40px\9; border: 1px solid #dbdbdb;}
+.enter-2 .text-2 { background: #fff url(../img/zhanghu.png) no-repeat 10px 10px; margin: 25px 0 0 0; *margin: 25px 0 0 -30px;width: 320px; height: 40px; font-size: 14px; text-indent: 30px; color: #333; outline:medium; line-height: 40px\9; border: 1px solid #dbdbdb;}
 .enter-2 .ckbox {text-align: left; margin: 0 0 0 40px; *margin: 10px 0 0 35px;}
 .enter-2 .ckbox em {margin-left: 5px;}
-.enter-2 .password-2 { background: #fff url(../images/mima-1.png) no-repeat 10px 10px; margin: 20px 0 10px 0;*margin: 25px 0 0 -30px;width: 320px; height: 40px; font-size: 14px; text-indent: 30px; color: #333; outline:medium; line-height: 40px\9; border: 1px solid #dbdbdb;}
+.enter-2 .password-2 { background: #fff url(../img/mima-1.png) no-repeat 10px 10px; margin: 20px 0 10px 0;*margin: 25px 0 0 -30px;width: 320px; height: 40px; font-size: 14px; text-indent: 30px; color: #333; outline:medium; line-height: 40px\9; border: 1px solid #dbdbdb;}
 .anchor-2 a {text-decoration: underline;font-family:"SimSun";color: #333333;}
-.denglu-but {width: 240px; height: 40px; background: url(../images/button.png); text-align: center; line-height: 40px;  font-size: 18px; margin: 15px auto; *margin: 10px auto;}
-.toggle-add1 {background: url(../images/toggle-add1.gif) !important;}
+.denglu-but {width: 240px; height: 40px; background: url(../img/button.png); text-align: center; line-height: 40px;  font-size: 18px; margin: 15px auto; *margin: 10px auto;}
+.toggle-add1 {background: url(../img/toggle-add1.gif) !important;}
 .denglu-but a {color: #fff; text-decoration: none;width: 240px; height: 40px; display: inline-block;}
 .denglu-but a:hover {color: #fff; text-decoration: none;}
 .error {position: absolute;height: 30px; line-height: 30px; margin-left: 40px; display: none; color: #e62222;}
 /*注册弹窗*/
 .zhucu-box {background: #fff;}
-.enter-3 .text-3 { background:#fff url(../images/dianghua.png) no-repeat 10px 10px; width: 320px; height: 40px; font-size: 14px; text-indent: 30px; color: #333; *margin-left: -30px; margin-top: 25px; outline:medium;}
+.enter-3 .text-3 { background:#fff url(../img/dianghua.png) no-repeat 10px 10px; width: 320px; height: 40px; font-size: 14px; text-indent: 30px; color: #333; *margin-left: -30px; margin-top: 25px; outline:medium;}
 .enter-3 ul li {text-align: center;}
 .enter-3 ul li input {line-height: 40px\9; border: 1px solid #dbdbdb;/* margin-top: 15px;*/ background: ; }
 .enter-3 .verify-3 {width: 160px; height: 38px; margin-right: 10px; *margin: -25px 0 0 -20px;  font-size: 14px; color: #333; text-indent: 10px; outline:medium; background-color: #fff;}
 .enter-3 .acquire-3 {width: 140px; height: 40px; margin-left: 10px; margin-top: 15px;}
-.enter-3 .password-3 { background: #fff url(../images/mima-1.png) no-repeat 10px 10px;  margin: 15px 0 10px 0;*margin-right:30px; width: 320px; height: 40px; font-size: 14px; text-indent: 30px; color: #333; outline:medium;}
+.enter-3 .password-3 { background: #fff url(../img/mima-1.png) no-repeat 10px 10px;  margin: 15px 0 10px 0;*margin-right:30px; width: 320px; height: 40px; font-size: 14px; text-indent: 30px; color: #333; outline:medium;}
 .enter-3 label { display: inline-block; margin: 0 0 0 40px; *margin-left :35px;}
 .enter-3 .ckbox {margin-right: 5px;}
 .enter-3 .mao { text-align: right;padding: 0 20px 0  0 ;/* _padding: 0 20px 10px 0 */}
 .enter-3 .mao a {text-decoration: underline; font-family:"SimSun";color: #333333;}
 .fail {position: absolute;height: 30px; line-height: 30px; margin-left: 40px; display: none; color: #e62222;}
 /*注册成功弹窗*/
-.success-box .of{ color: red; font-size: 20px; text-align: center; height: 35px; background: url(../images/gou.png) no-repeat 100px 2px; }
+.success-box .of{ color: red; font-size: 20px; text-align: center; height: 35px; background: url(../img/gou.png) no-repeat 100px 2px; }
 .success-box .number {font-size: 12px; text-align: center; color: #666;}
 .success-box .jinru {height: 40px; text-align: center;}
-.success-box .jinru a{font-size: 14px;color: #fff; display: inline-block; margin-top: 10px; width: 80px; height: 30px; line-height: 30px; background: url(../images/ess-btn.png) no-repeat;}
+.success-box .jinru a{font-size: 14px;color: #fff; display: inline-block; margin-top: 10px; width: 80px; height: 30px; line-height: 30px; background: url(../img/ess-btn.png) no-repeat;}
 .success-box .jinru a:hover {text-decoration: none;}
 /*注册协议弹窗*/
 
@@ -275,7 +275,7 @@ a:hover{color:#e62223;text-decoration:underline}
 /* Yuk! CSS Hack for IE6 3 pixel bug :( */
 * html .jspCorner{margin: 0 -3px 0 0;}
 /*cover*/
-.tu {background: url(../images/bg.jpg) no-repeat 50% 50%;height: 500px;margin-bottom: -20px;}.
+.tu {background: url(../img/bg.jpg) no-repeat 50% 50%;height: 500px;margin-bottom: -20px;}.
 
 
 /*正文*/
@@ -293,7 +293,7 @@ a:hover{color:#e62223;text-decoration:underline}
 /*列表*/
 /*lg*/
 .sp .color-b{color:#0A0A0A;}
-.li-0-right-new .t-zhuli{width: 126px;height:21px;background:url(../images/longhutitle.png) no-repeat;display: inline-block;text-align:center;padding-top:3px;}
+.li-0-right-new .t-zhuli{width: 126px;height:21px;background:url(../img/longhutitle.png) no-repeat;display: inline-block;text-align:center;padding-top:3px;}
 .li-0-right-new .t-zhuli span{font-size: 14px;font-weight: normal;color: #fff;font-family: "黑体";}
 .li-0-right-new .title-h3{ font-size:18px; line-height: 26px; height: 52px; overflow: hidden; margin-top:10px;color: #666;}
 .li-0-right span ,.li-0-right-new span{color: #999;font-size: 12px; margin-top: 5px;}
@@ -339,7 +339,7 @@ a:hover{color:#e62223;text-decoration:underline}
 .sdRgt .p-time,.p-ri  {text-align: right; color: #999; margin-top:10px; margin-right: 20px;}
 
 .sdRgt .right-box2 {padding: 15px;}
-.sdRgt .right-box2 li {background: url(../images/triangle.png) no-repeat left center ;line-height: 30px;text-indent: 20px; height: 30px; overflow: hidden;}
+.sdRgt .right-box2 li {background: url(../img/triangle.png) no-repeat left center ;line-height: 30px;text-indent: 20px; height: 30px; overflow: hidden;}
 /*投资着保护页面样式*/
 
 
@@ -361,8 +361,8 @@ a:hover{color:#e62223;text-decoration:underline}
 /*.flex-control-nav li{margin:0 5px;display:inline-block;zoom:1;*display:inline;}*/
 .flex-control-nav{position:absolute;right:5px;bottom:23px; *bottom:5px; text-align:center; padding: 5px;}
 .flex-control-nav li{margin:0 2px;display:inline-block;zoom:1;*display:inline;}
-.flex-control-paging li a{background:url(../images/dotte.png) no-repeat;display:block;height:8px;overflow:hidden;text-indent:-99em;width:8px;cursor:pointer;}
-.flex-control-paging li a.flex-active{background:url(../images/dotte.png) no-repeat 0 -8px;}
+.flex-control-paging li a{background:url(../img/dotte.png) no-repeat;display:block;height:8px;overflow:hidden;text-indent:-99em;width:8px;cursor:pointer;}
+.flex-control-paging li a.flex-active{background:url(../img/dotte.png) no-repeat 0 -8px;}
 
 #jsPlayer_h3 {position: absolute; margin-top: -30px;  width: 600px; background: #333; opacity: 0.7; height: 30px; color: #fff; line-height: 30px; font-size: 16px;}
 #jsPlayer_h3 h3 {margin: 0 10px; font-weight: normal; width: 490px; height: 30px; overflow: hidden;}
@@ -401,9 +401,9 @@ a:hover{color:#e62223;text-decoration:underline}
 .sdRgt .rightUl li a{font-size: 16px;}
 .sdRgt .rightUl img{padding: 10px 0;}
 .sdRgt .img-ri {width: 340px; height: 120px!important;}
-.sdRgt .rightBg-1 {background: url(../images/ron.png) no-repeat right;}
-.sdRgt .rightBg-2 {background: url(../images/zhang.png) no-repeat right;}
-.sdRgt .rightBg-3 {background: url(../images/long.png) no-repeat right;}
+.sdRgt .rightBg-1 {background: url(../img/ron.png) no-repeat right;}
+.sdRgt .rightBg-2 {background: url(../img/zhang.png) no-repeat right;}
+.sdRgt .rightBg-3 {background: url(../img/long.png) no-repeat right;}
 .sdRgt h2 {font-size: 20px;}
 .sdRgt .rightUl-1 {width: 340px;}
 .sdRgt .box1, .box2, .box3,.box4 ,.box5{border:1px solid #bdbdbd;margin: 20px 0; border-top: 5px solid #e62223; padding-top: 5px;}
@@ -420,13 +420,13 @@ a:hover{color:#e62223;text-decoration:underline}
 .div-center{text-align: center; font-size: 14px; margin: 15px 0;}
 .div-center a { text-decoration: underline;}
 .sdRgt .box4 {margin-bottom:20px;}
-.news-list ul li {background: url(../images/allbg.png) no-repeat 10px 8px; line-height: 25px;height: 25px; overflow: hidden; list-style: none;padding-left: 24px;}
+.news-list ul li {background: url(../img/allbg.png) no-repeat 10px 8px; line-height: 25px;height: 25px; overflow: hidden; list-style: none;padding-left: 24px;}
 .more {margin-right: 10px;}
 .more a {color: #000; line-height: 25px; font-family:"SimSun";}
 .more a:hover {color: red;}
 
 .sdRgt .right-box2 {padding: 15px;}
-.sdRgt .right-box2 li {background: url(../images/triangle.png) no-repeat left center ;line-height: 30px;text-indent: 20px; height: 30px; overflow: hidden;}
+.sdRgt .right-box2 li {background: url(../img/triangle.png) no-repeat left center ;line-height: 30px;text-indent: 20px; height: 30px; overflow: hidden;}
 
 .list-table {border-collapse: collapse; border:none; margin: 0 10px !important; width: 315px; text-align: center;}
 .list-table th,.list-table  td {border: none; border-bottom: 1px solid #bdbdbd;padding: 7px 0;}
@@ -467,3 +467,35 @@ a:hover{color:#e62223;text-decoration:underline}
 .hack1{_vertical-align: 2px;}
 .hack2{font-family:"宋体";}
 /*页尾结束*/
+
+
+/*研究团队*/
+.team-cont{width:1040px;background: #FFFFFF;margin:0 auto;}
+.team-cont .team-title{text-align: center;width: 960px;margin-top:50px;}
+.team-cont .team-title span{font-size: 26px;color: #999;padding-left: 53px;background: url(../img/team-icon.png) no-repeat left center;}
+/*人员公示改版8/15 lg*/
+.people-box{width:230px;height: 270px;position: relative;overflow: hidden;}
+.people-box img{width:230px;height: 270px;}
+.people-box .mark{width:230px;height: 270px;background-color:#000\9;opacity:0.8\9;filter:alpha(opacity=80)\9;background: rgba(0,0,0,0.8);position: absolute;left: 0;top:180px;color: #fff;line-height: 20px;word-break: break-all;}
+.people-box .mark .name1{text-align: center;font-size: 20px;margin-top: 20px;}
+.people-box .mark .jianjie{text-align: center;color:#e3dea2;margin-top: 6px;}
+.people-box .mark .jieshao{padding:10px;text-indent: 2em;}
+.people-box .mark .zhiwei{margin-left: 20px;}
+.people-box:hover img{transform: scale(1);transition:.2s;transform-origin: center center;}
+
+#taCourse{position: relative;display:inline-block;width:1040px;background: #FFFFFF;margin-top:50px;}
+#taCourse #bigroll{margin-left: 70px!important;width:960px!important;overflow: hidden!important;position: relative;}
+#roll{width:200%;overflow: hidden;}
+#roll li{width: 230px;float: left;margin-right: 10px;}
+#roll li .people-box img{width: 230px;float: left; margin-right: 10px;height:270px;}
+#taCourse .left{position: absolute;left: 40px;top:0px;width:20px;height:270px;display: block;z-index: 9999;background-color: #f2f2f2;}
+#taCourse .right{position: absolute;left:1030px;top:0px;width:20px;height: 270px;z-index: 9999;display: block;background-color: #f2f2f2;}
+#taCourse .left img,#taCourse .right img{width:20px;margin-top: 114px;cursor: pointer;}
+.taCourse  li .people-box{width:230px;border:0;margin:0;padding:0;}
+
+.team-buttom{width: 960px;margin: 0 auto;margin-top:60px;}
+.team-buttom li{float: left;width: 300px;display: inline;margin-left: 20px;}
+.team-buttom li .team-pic{width:300px;text-align: center;display: block;}
+.team-buttom li h3{color: #333;font-size: 18px;margin-top: 36px;text-align: center;}
+.team-buttom li p{margin-top:36px;}
+.team-buttom li p span{text-align: center;color: #999;line-height: 26px;display: block;}

@@ -30,8 +30,8 @@ color: white; width: 119px;border-right: solid 2px #fff;}
 .section3 .content .line{border-bottom: solid 3px #6baee4;margin-top:24px;}
 .section3 .content .txt{height:60px;width: 100%;margin-top: 16px;font-size: 14px;line-height: 30px;color: white;font-weight:bold;}
 .section3 .content .btn_img{margin-top: 20px;position: relative;}
-.section3 .content .btn_img .l{cursor: pointer; position: absolute;width: 154px;height: 40px;left:4px;top: 14px;font-size: 14px;font-weight:bold;text-align: center;line-height: 40px;color: white;}
-.section3 .content .btn_img .r{cursor: pointer; position: absolute;width: 154px;height: 40px;left:195px;top: 14px;font-size: 14px;font-weight:bold;text-align: center;line-height: 40px;color: white;}
+.section3 .content .btn_img .l{cursor: pointer; position: absolute;width: 154px;height: 40px;left:4px;top: 12px;font-size: 14px;font-weight:bold;text-align: center;line-height: 40px;color: white;}
+.section3 .content .btn_img .r{cursor: pointer; position: absolute;width: 154px;height: 40px;left:195px;top: 12px;font-size: 14px;font-weight:bold;text-align: center;line-height: 40px;color: white;}
 .section3 .more{width: 84px;height: 57px;font-size:14px;color: white;text-align: center;
 font-weight: bold;margin-top:83px;position: absolute;left: 504px;top:408px;}
 .section3 .more .tx{cursor: pointer;}

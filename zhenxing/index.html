@@ -481,7 +481,10 @@ $(document).ready(function(){
         	$(".section3").css('width','960px')
         	$(".all_text").css({width:480,margin:0})
         }
-      
+     $(".more").click(function(){
+     	$(window).scrollTop(700);
+     })
+
 	$("#roll").delegate(".people-box", 'mouseover', function(){
 		$(this).find(".mark").stop().animate({
 		top:'0',

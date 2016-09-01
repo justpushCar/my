@@ -440,7 +440,6 @@ $(document).ready(function(){
 	$('.xia').click(function(){
 		$('.opt').slideToggle("fast");
 	})
-	
 	$('.tap>.opt').click(function(){
 		var opt_index=$(this).index()
 		if(opt_index==4){
@@ -453,15 +452,36 @@ $(document).ready(function(){
 			}
 		})
 	})
+	    var time_s=0
+	    var xunhuai
+	 var daxh=function(){
+	 	xunhuai=setInterval(function(){
+		time_s=time_s+1
+		time_s=(time_s==4)?0:time_s
+		$('.section3 .content').each(function(){
+			var cont_index=$(this).index();
+			if(time_s==cont_index){
+				$(this).fadeIn().siblings().hide()
+			}
+		})
+	},2500)
+	 }
+	 daxh()
+
+	$('.all_text').on('mouseover',function(){
+		clearInterval(xunhuai)
+	})
+	$('.all_text').on('mouseout',function(){
+		daxh()
+	})
+	
 	
 	var a= $(window).width()
         if(a<1200){
         	$(".section3").css('width','960px')
-        	 $(".all_text").css({width:480,margin:0})
+        	$(".all_text").css({width:480,margin:0})
         }
-       
-	
-	
+      
 	$("#roll").delegate(".people-box", 'mouseover', function(){
 		$(this).find(".mark").stop().animate({
 		top:'0',

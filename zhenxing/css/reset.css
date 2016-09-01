@@ -319,7 +319,7 @@ a:hover{color:#e62223;text-decoration:underline}
 .li-0 .li-0-right p.ri a {font-family: 'SimSun' }
 .jinpng img {width: 600px; height: 160px;}
 .bfc {height: 18px;}
-
+.di{display: inline;}
 /*右边文本*/
 .textri {text-align: right;}
 .sdRgt .right-ul .marg {margin-bottom: 20px; }
@@ -467,8 +467,24 @@ a:hover{color:#e62223;text-decoration:underline}
 .hack1{_vertical-align: 2px;}
 .hack2{font-family:"宋体";}
 /*页尾结束*/
-
-
+/*研报*/
+.yb-wrapper{width: 100%;background-color:#f2f2f2;}
+.yb-box{width: 960px;margin: 0 auto;padding: 30px 0;}
+.col-two{width:630px;height: 300px;}
+.col-one{width:300px;}
+.col-two .image-wrapper{width: 330px;height: 300px;overflow: hidden;}
+.col-two .content-wrapper{width: 300px;height: 300px;overflow: hidden;background-color:#fff;word-break: break-all;}
+.col-one .col-content{width: 260px;height:260px;overflow: hidden;background-color:#fff;word-break: break-all;}
+.blue{color:#589dde;}
+.yb-title{font-size: 14px;font-weight: bold;margin-top: 10px;display: block;}
+.main-content h3{font-size: 20px;margin-top: 20px;}
+.main-content .date{color: #999;margin-top: 10px;display: block;}
+.main-content p{font-size: 14px;line-height: 28px;margin-top: 10px;color: #666;}
+.col-content{padding: 20px;}
+.col-one .image-wrapper{width: 300px;overflow: hidden;}
+.icon-left{position: absolute;top:20px;right:0}
+.icon-top{position: absolute;bottom:0;left: 20px;}
+.yb-btn{width: 160px;height: 40px;background: url(../img/yb-btn_05.jpg) no-repeat;display: block;margin: 0 auto;margin-top: 60px;}
 /*研究团队*/
 .team-cont{width:1040px;background: #FFFFFF;margin:0 auto;}
 .team-cont .team-title{text-align: center;width: 960px;margin-top:50px;}

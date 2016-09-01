@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>证星研究院首页</name>
+	<name>zhenxing</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -14,19 +14,4 @@
 	<natures>
 		<nature>com.aptana.projects.webnature</nature>
 	</natures>
-	<filteredResources>
-		<filter>
-<<<<<<< HEAD
-			<id>1472538489753</id>
-=======
-			<id>1472536119174</id>
->>>>>>> f8a37237b41f36eddcf65db5a3bde632f43b4553
-			<name></name>
-			<type>26</type>
-			<matcher>
-				<id>org.eclipse.ui.ide.multiFilter</id>
-				<arguments>1.0-name-matches-false-false-node_modules</arguments>
-			</matcher>
-		</filter>
-	</filteredResources>
 </projectDescription>

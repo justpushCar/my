@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 class CommonHead extends Component {
-	 constructor(prop){
-	 	 super();
+	 constructor(props){
+	 	 super(props);
 	 }
   render() {
+  	let img_src =(this.props.head.headimg)?(<img alt="头像" src={this.props.head.headimg} />):""
     return (
          <div className="head">
-           <div className="top_left"><img alt="头像" src="http://1.libikun.applinzi.com/Public/img/nan.png" /></div>
-           <div className="mid">主页</div>
+           <div className="top_left">{img_src}</div>
+           <div className="mid"> {this.props.head.title}</div>
          </div>
-        
     );
   }
 }

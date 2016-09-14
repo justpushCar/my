@@ -265,10 +265,13 @@ a {
   color: #333;
   text-decoration: none;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
 }
 a:hover {
-  color: #e62223;
-  text-decoration: underline;
+  color: #666;
+  text-decoration: none;
 }
 /*清除浮动*/
 .clearfix:before,
@@ -296,6 +299,8 @@ body {
   height: 2rem;
   width: 100%;
   background: #f7f7f8;
+  position: fixed;
+  top: 0;
 }
 .head .top_left {
   height: 100%;
@@ -323,6 +328,9 @@ body {
   width: 2rem;
   height: 100%;
 }
+.allcontent {
+  margin: 2.1rem 0;
+}
 .content {
   height: 4rem;
   width: 15.6rem;
@@ -331,9 +339,9 @@ body {
   border-radius: 0.2rem;
   -moz-border-radius: 0.2rem;
   -webkit-border-radius: 0.2rem;
-  box-shadow: 0.05rem 0.07rem 0.2rem #000000;
-  -moz-box-shadow: 0.05rem 0.07rem 0.2rem #000000;
-  -webkit-box-shadow: 0.05rem 0.07rem 0.2rem #000000;
+  box-shadow: 0.05rem 0.07rem 0.2rem #cccccc;
+  -moz-box-shadow: 0.05rem 0.07rem 0.2rem #cccccc;
+  -webkit-box-shadow: 0.05rem 0.07rem 0.2rem #cccccc;
 }
 .content .wrap .wrap1 {
   height: 3.1rem;
@@ -378,14 +386,14 @@ body {
 }
 .content .wrap .wrap1 .baochou_content {
   height: 0.5rem;
-  width: 1rem;
+  width: 4rem;
   font-size: 0.4rem;
   border-radius: 0.1rem;
   -moz-border-radius: 0.1rem;
   -webkit-border-radius: 0.1rem;
   margin-left: 0.12rem;
   float: left;
-  text-align: center;
+  text-align: left;
   line-height: 0.5rem;
   margin-top: 0.1rem;
 }
@@ -394,4 +402,96 @@ body {
 }
 .content .wrap .wrap2 .location {
   float: right;
+}
+.fix_foot {
+  background: #f7f7f8;
+  position: fixed;
+  bottom: 0;
+  height: 2rem;
+  width: 100%;
+  text-align: center;
+  font-size: 0.5rem;
+}
+.fix_foot .l {
+  cursor: pointer;
+  width: 33.33%;
+  height: 2rem;
+  float: left;
+}
+.fix_foot .l div {
+  height: 1rem;
+  width: 100%;
+}
+.fix_foot .l .text {
+  height: 1rem;
+  width: 100%;
+}
+.fix_foot .m {
+  cursor: pointer;
+  width: 33.33%;
+  height: 2rem;
+  float: left;
+}
+.fix_foot .m div {
+  height: 1rem;
+  width: 100%;
+}
+.fix_foot .m .text {
+  height: 1rem;
+  width: 100%;
+}
+.fix_foot .r {
+  cursor: pointer;
+  width: 33.33%;
+  height: 2rem;
+  float: left;
+}
+.fix_foot .r div {
+  height: 1rem;
+  width: 100%;
+}
+.fix_foot .r .text {
+  height: 1rem;
+  width: 100%;
+}
+.con_input {
+  width: 100%;
+  margin: 0.5rem 0.3rem;
+}
+.con_input i {
+  width: 1rem;
+}
+.con_input input {
+  width: 11.4rem;
+  height: 1.5rem;
+  border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  border: solid #ccc 1px;
+  box-shadow: 0.05rem 0.05rem 0.05rem 1px #cccccc;
+  -moz-box-shadow: 0.05rem 0.05rem 0.05rem 1px #cccccc;
+  -webkit-box-shadow: 0.05rem 0.05rem 0.05rem 1px #cccccc;
+  font-size: 0.7rem;
+  margin-left: 0.4rem;
+  vertical-align: 0.4rem;
+}
+.login {
+  margin: 4rem 0;
+  font-size: 1.2rem;
+}
+.login .con_butn {
+  height: 1.5rem;
+  line-height: 1.5rem;
+  width: 5rem;
+  border: solid 1px #666;
+  border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  margin-top: 1rem;
+  float: left;
+  margin-left: 2rem;
+  text-align: center;
+  box-shadow: 0.15rem 0.15rem 0.1rem 1px #cccccc;
+  -moz-box-shadow: 0.15rem 0.15rem 0.1rem 1px #cccccc;
+  -webkit-box-shadow: 0.15rem 0.15rem 0.1rem 1px #cccccc;
 }

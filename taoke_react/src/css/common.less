@@ -128,7 +128,7 @@ a:hover{color:#666;text-decoration:none}
 //头文件
 body{background: #eee;}
 @head_bg:#f7f7f8;
-.head{height: 2rem;width: 100%;background: @head_bg; position: fixed;top: 0;
+.head{height: 2rem;width: 100%;background: @head_bg; position: fixed;top: 0;z-index: 1000;
      .top_left{height: 100%;width: 2rem;float: left;
        img{height: 100%;width: 100%;cursor: pointer;}
      }
@@ -171,7 +171,7 @@ body{background: #eee;}
         }
     }
 }
-.fix_foot{background: @head_bg;
+.fix_foot{background: @head_bg;z-index: 1000;
     position: fixed;bottom: 0;height: 2rem;
     width: 100%;text-align: center;font-size: 0.5rem;
     .l{cursor: pointer;

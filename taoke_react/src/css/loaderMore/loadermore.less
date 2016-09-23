@@ -1,0 +1,30 @@
+@pullingMsg: '下拉刷新';
+@pullingEnoughMsg: '松开刷新';
+@refreshingMsg: '正在刷新...';
+@refreshedMsg: '刷新成功';
+@loadingMsg: '正在加载...';
+@btnLoadMore: '加载更多';
+
+.tloader-msg:after{
+    .state-pulling &{
+        content: @pullingMsg
+    }
+
+    .state-pulling.enough &{
+        content: @pullingEnoughMsg;
+    }
+
+    .state-refreshed &{
+        content: @refreshedMsg;
+    }
+}
+.tloader-loading:after{
+    content: @loadingMsg;
+
+    .tloader-symbol &{
+        content: @refreshingMsg;
+    }
+}
+.tloader-btn:after{
+    content: @btnLoadMore;
+}

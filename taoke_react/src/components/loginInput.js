@@ -4,7 +4,7 @@ class LoginInput extends Component {
 	 	loginHand(){
   		var va1= this.refs.input1.value
   		var va2= this.refs.input2.value
-  		if(va1==""&&va2==""){
+  		if(va1===""&&va2===""){
   			alert("账号密码不能为空")
   		}else{
 			var loginjson=	 fetch("http://libikun.sinaapp.com/index.php/Index/loginJson.html", {
@@ -20,13 +20,13 @@ class LoginInput extends Component {
 			   
 			).then(
 				data=>{
-					 if(data.status==2){
+					 if(data.status===2){
 		                 alert(data.info);
 		             }
-		             if(data.status==0){
+		             if(data.status===0){
 		                  alert(data.info);
 		             }
-		             if(data.status==1){
+		             if(data.status===1){
 		                hashHistory.push("/")
 		              }
 				}

@@ -301,6 +301,7 @@ body {
   background: #f7f7f8;
   position: fixed;
   top: 0;
+  z-index: 1000;
 }
 .head .top_left {
   height: 100%;
@@ -405,6 +406,7 @@ body {
 }
 .fix_foot {
   background: #f7f7f8;
+  z-index: 1000;
   position: fixed;
   bottom: 0;
   height: 2rem;

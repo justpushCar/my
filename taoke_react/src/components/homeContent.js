@@ -49,7 +49,7 @@ class HomeContent extends Component {
   		}
 	
     return (
-        <div className="allcontent">
+        <div   className="allcontent">
 	       {this.contentdiv} 
         </div>
     );

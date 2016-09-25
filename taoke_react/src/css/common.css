@@ -340,9 +340,9 @@ body {
   border-radius: 0.2rem;
   -moz-border-radius: 0.2rem;
   -webkit-border-radius: 0.2rem;
-  box-shadow: 0.05rem 0.07rem 0.2rem #cccccc;
-  -moz-box-shadow: 0.05rem 0.07rem 0.2rem #cccccc;
-  -webkit-box-shadow: 0.05rem 0.07rem 0.2rem #cccccc;
+  box-shadow: 0.05rem 0.07rem 0.2rem #ccc;
+  -moz-box-shadow: 0.05rem 0.07rem 0.2rem #ccc;
+  -webkit-box-shadow: 0.05rem 0.07rem 0.2rem #ccc;
 }
 .content .wrap .wrap1 {
   height: 3.1rem;
@@ -404,9 +404,18 @@ body {
 .content .wrap .wrap2 .location {
   float: right;
 }
+.fix_head_left {
+  width: 12rem;
+  height: 100%;
+  background: #ccc;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 1000;
+}
 .fix_foot {
   background: #f7f7f8;
-  z-index: 1000;
+  z-index: 10;
   position: fixed;
   bottom: 0;
   height: 2rem;
@@ -470,9 +479,9 @@ body {
   -moz-border-radius: 0.2rem;
   -webkit-border-radius: 0.2rem;
   border: solid #ccc 1px;
-  box-shadow: 0.05rem 0.05rem 0.05rem 1px #cccccc;
-  -moz-box-shadow: 0.05rem 0.05rem 0.05rem 1px #cccccc;
-  -webkit-box-shadow: 0.05rem 0.05rem 0.05rem 1px #cccccc;
+  box-shadow: 0.05rem 0.05rem 0.05rem 1px #ccc;
+  -moz-box-shadow: 0.05rem 0.05rem 0.05rem 1px #ccc;
+  -webkit-box-shadow: 0.05rem 0.05rem 0.05rem 1px #ccc;
   font-size: 0.7rem;
   margin-left: 0.4rem;
   vertical-align: 0.4rem;
@@ -493,7 +502,7 @@ body {
   float: left;
   margin-left: 2rem;
   text-align: center;
-  box-shadow: 0.15rem 0.15rem 0.1rem 1px #cccccc;
-  -moz-box-shadow: 0.15rem 0.15rem 0.1rem 1px #cccccc;
-  -webkit-box-shadow: 0.15rem 0.15rem 0.1rem 1px #cccccc;
+  box-shadow: 0.15rem 0.15rem 0.1rem 1px #ccc;
+  -moz-box-shadow: 0.15rem 0.15rem 0.1rem 1px #ccc;
+  -webkit-box-shadow: 0.15rem 0.15rem 0.1rem 1px #ccc;
 }

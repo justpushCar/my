@@ -8,9 +8,9 @@ class Taoke extends Component {
   render() {
     return (
     	<div>
-    	<CommonHead head={{title:"主页",headimg:"http://1.libikun.applinzi.com/Public/img/nan.png"}}/>
+    	 <CommonHead head={{title:"主页",headimg:"http://1.libikun.applinzi.com/Public/img/nan.png"}}/>
     	 <Loadermore/>
-       <CommonFoot/>
+         <CommonFoot/>
     	</div> 
     );
   }

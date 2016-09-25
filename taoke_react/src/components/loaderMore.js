@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import Tloader from 'react-touch-loader';
+import Tloader from '../css/loaderMore/touch_ref_addmore';
 class Loadermore extends Component {
 	 constructor(prop){
 	 	 super();
 	 	 this.state={
 	 	 	//确定是否可以刷新
 	 	 	canRefreshResolve:1,
-            listLen:0,
-            hasMore:0,
-           // initializing:1,
+            canPullUpAddMore:true, //是否开启下拉刷新
+            hasMore:0,            
+           // initializing:1,   
            conter:[]
            }
 			//	 	 initializing
@@ -24,39 +24,19 @@ class Loadermore extends Component {
 	 }
 	 refresh(resolve, reject){
 	
-//	 	 	setTimeout(function(){
-//	 	 if(!this.state.canRefreshResolve) return reject();
-//       this.getjsonlist= fetch(this.jsonlist_url)
-//       this.getjsonlist.then(
-//		   		response=>response.json()
-//		     ).then(
-//		     	data=>{
-//		     		this.setState({conter:data});
-		     		 reject();
-//		     	}
-//		    )
-		
-       // }.bind(this), 2e3);
 
-	 	
-	 	console.log(this.state.canRefreshResolve)
-//	 	console.log(resolve);
-////	 	   if(this.state.canRefreshResolve==0) {
-//	 	    return reject();
-	 	   	
-//	 	   }else{
-//	 	   	 this.getjsonlist= fetch(this.jsonlist_url)
-//	 	 	this.getjsonlist.then(
-//		   		response=>response.json()
-//		     ).then(
-//		     	data=>{
-//		     		this.setState({conter:data,  hasMore: 1});
-//		     		resolve();
-//		     	}
-//		    )
-//	 	   }
-//	 	
-          
+	 	// if(this.state.canRefreshResolve) return reject();
+       this.getjsonlist= fetch(this.jsonlist_url)
+       this.getjsonlist.then(
+		   		response=>response.json()
+		     ).then(
+		     	data=>{
+		     		this.setState({conter:data});
+		     		resolve()
+		     		reject();
+		     	}
+		    )
+		 
           
 	 }
 	 
@@ -88,7 +68,6 @@ class Loadermore extends Component {
 		 // window.addEventListener('scroll', this.handleScroll.bind(this))
 		// this.rem_px=window.screen.width/16
 		 
-		 
 	 }
 	handleScroll(){
 		 var s= document.body.scrollTop
@@ -101,7 +80,7 @@ class Loadermore extends Component {
 	      }
 	}
   render() {
-     var { listLen, hasMore, initializing, refreshedAt, canRefreshResolve } = this.state;
+     var {  hasMore, initializing, refreshedAt, canRefreshResolve,canPullUpAddMore } = this.state;
         var { refresh, loadMore, toggleCanReresh } = this;
         var list = [];
 
@@ -134,7 +113,7 @@ class Loadermore extends Component {
   		}
         return (
         	<div >
-                <Tloader className="allcontent"  onRefresh={refresh} onLoadMore={loadMore} hasMore={hasMore} initializing={initializing}>
+                <Tloader className="allcontent"  canPullUpAddMore={canPullUpAddMore} onRefresh={refresh} onLoadMore={loadMore} hasMore={hasMore} initializing={initializing}>
                     <ul>{this.contentdiv}</ul>
                 </Tloader>    
             </div>   

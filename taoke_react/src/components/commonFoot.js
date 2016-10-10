@@ -3,10 +3,15 @@ import { Link } from 'react-router';
 class Commonfoot extends Component {
 	 constructor(prop){
 	 	 super();
+     this.state={
+      aa:3
+     }
+
 	 }
+
   render() {
     return (
-         <div className="fix_foot">
+         <div className="fix_foot" >
            <div className="l">
                <Link to="/login">
 	           <div><i className="fa fa-star fa-2x"></i></div>

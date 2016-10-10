@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
     "react-scripts": "0.4.1"
   },
   "dependencies": {

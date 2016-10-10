@@ -6,6 +6,7 @@ class HomeContent extends Component {
 	 	 this.state={conter:[]}
 	 }
 
+    
 	 
    componentDidMount(){
 	   	fetch("http://1.libikun.applinzi.com/index.php/Index/indexJson.html")
@@ -48,11 +49,8 @@ class HomeContent extends Component {
   		}
 	
     return (
-        <div className="allcontent">
-	       {this.contentdiv} {this.contentdiv} {this.contentdiv} {this.contentdiv} {this.contentdiv}
-	        {this.contentdiv} {this.contentdiv} {this.contentdiv} {this.contentdiv} {this.contentdiv}
-	         {this.contentdiv} {this.contentdiv} {this.contentdiv} {this.contentdiv} {this.contentdiv}
-	     
+        <div   className="allcontent">
+	       {this.contentdiv} 
         </div>
     );
   }
